@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="containerCalc">
+        <div class="Screen" ></div>
+           <div class="row">
+            <button  onclick="Clear()">C</button>
+            <button onclick="Delete()">Del</button>
+            <button onclick="Display(`%`)">%</button>
+            <button onclick="Display(`/`)">/</button>
+        </div>
+           <div class="row">
+            <button onclick="Display(`7`)">7</button>
+            <button onclick="Display(`8`)">8</button>
+            <button onclick="Display(`9`)">9</button>
+            <button onclick="Display(`*`)">*</button>
+        </div>
+        
+           <div class="row">
+            <button onclick="Display(`4`)">4</button>
+            <button onclick="Display(`5`)">5</button>
+            <button onclick="Display(`6`)">6</button>
+            <button onclick="Display(`-`)">-</button>
+        </div>
+         <div class="row">
+            <button onclick="Display(`1`)">1</button>
+            <button onclick="Display(`2`)">2</button>
+            <button onclick="Display(`3`)">3</button>
+            <button onclick="Display(`+`)">+</button>
+        </div>
+       
+           <div class="row">
+            <button onclick="Mult()">+/-</button>
+            <button onclick="Display(`0`)">0</button>
+            <button onclick="Display(`.`)">.</button>
+            <button onclick="Calc()">=</button>
+        </div>
+      
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+   <script src="main.js"></script> 
+</body>
+</html>
